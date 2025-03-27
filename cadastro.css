@@ -14,15 +14,6 @@ body {
     background-color: white;
 }
 
-h2{
-    font-family: "Dancing Script", cursive;
-    color: #ccc;
-}
-#message {
-    font-size: 12px; /* Reduz o tamanho da fonte */
-    color: red;
-    margin-top: 5px;
-}
 
 .img img {
     width: 0px; 
@@ -41,7 +32,7 @@ input {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 15px;
-    width: 93%;
+    width: 90%;
 }
 
 button {
@@ -52,7 +43,7 @@ button {
     border-radius: 30px;
     cursor: pointer;
     margin-top: 10px;
-    width: 94%;
+    width: 89%;
 }
 
 button:hover {
@@ -60,7 +51,7 @@ button:hover {
 }
 
 .forgot-password {
-    color: #93004f;
+    color: #ff758c;
     text-decoration: none;
     font-size: 14px;
     margin-top: 10px;
@@ -71,15 +62,15 @@ button:hover {
 }
 
 
-.login {
-    color: white;
+.cadastro {
     font-size: 3rem;
     font-weight: 700;
     width: 22ch;
     animation:typing 3s;
+    color: azure;
 }
 
-.login span {
+.cadastro span {
     color: #ff5a78;
 }
 
@@ -94,9 +85,9 @@ button:hover {
     font-size: 3rem;
     font-weight: 700;
     width: 22ch;
-    animation:typing 3s;
+    animation:  
+                    typing 3s;
 }
-
 @keyframes typing {
     0% {
         width: 0;

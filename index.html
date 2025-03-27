@@ -5,22 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login e Cadastro</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="login.js"></script> <!-- Defer para carregar após o HTML -->
 </head>
 <body>
-    <div></div>
-        <img src="celularlogin.png" alt="">
-    </div>
+    <img src="./img/celular.png" alt="">
+
     <div class="container">
         <div class="form-container" id="login-form">
-            <h2>Log in</h2>
-            <input type="text" placeholder="Telefone, nome de usuário ou email">
-            <input type="password" placeholder="Senha">
-            <button>Entrar</button>
-            <button class="register-btn" onclick="showRegister()">Não tenho conta</button>
-            <p><a href="#" class="forgot-password">Esqueci a senha</a></p>
+            <div class="login">LogIn</div>
+            <input type="text" id="email" placeholder="Email">
+            <input type="password" id="password" placeholder="Senha">
+            <button id="login-button">Entrar</button>
+            <p id="message"></p>
+            <button><a href="cadastro.html">Não tenho conta</a></button>
+            <p><a href="recuperacao1.html" class="forgot-password">Esqueci a senha</a></p>
+            <p id="message"></p> <!-- Para exibir mensagens de erro/sucesso -->
         </div>
     </div>
-    <script src="script.js"></script>
-    
 </body>
 </html>
